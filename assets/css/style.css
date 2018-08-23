@@ -1,0 +1,69 @@
+/*--================ Global Body Properties ==========================*/
+body, html {
+    height: 100%;
+}
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url('../images/dust_scratches.png');
+    color: #777777;
+    font-size: 18px;
+    line-height: 34px;
+}
+/*--================ Logo Properties =========================*/
+#logo{
+    width: 250px;
+    height: auto;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 117px;
+    text-decoration: none;
+    background: #4aaaa5;
+
+}
+/*--============== Navigation Navbar Properties ===============*/
+.navbar {
+    background: #ffffff;
+    color:#666666;
+    margin-bottom: 0;
+    border-radius: 0;
+    border-bottom: 3px solid #cccccc;
+    border-top: none;     
+}
+
+.navbar-inverse .navbar-nav> .active> a {
+    background: #4aaaa5;
+    color:#ffffff;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color:#777777;
+}
+
+/*--============== Column Properties =========================*/
+.col-md-2{
+    background-image: url("/assets/images/dust_scratches.png");
+}
+
+.col-md-8{
+    background-color: #ffffff; 
+    width:960px; 
+    height:auto; 
+    margin-top: 40px;
+    margin-bottom: 100px;
+}  
+  
+/*--================ Footer Properties ========================*/
+footer {
+    background:  #666666; 
+    border-top: 8px solid #4aaaa5;
+    border-bottom: none;
+    color: #ffffff;
+    font-size: 12px;
+    height: 50px;
+}
+
+  /*--============== Media Properties ==========================*/
+@media screen and (max-width: 767px) { 
+    .row.content {height:auto;} 
+}
