@@ -199,12 +199,16 @@ img {
   /*--============== Media Properties ==========================*/
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
-
+    .col-md-8 {
+        width: 960px;
+    }
 }
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
-
+    .col-md-8 {
+        width: 960px;
+    }
 }
 
 /* Portrait tablets and small desktops */
@@ -213,8 +217,9 @@ img {
         display: inline-block;
       } 
       .container-fluid{
-        max-width:100%;
+        width:100%;
     } 
+    
    
 }
 
@@ -238,6 +243,7 @@ img {
     .container-fluid {
         width:100%;
     }
+   
     
 }
  
