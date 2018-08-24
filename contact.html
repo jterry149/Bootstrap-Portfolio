@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--=================Navbar ===============================-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header text-center">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" id="logo" href="index.html">Jessica Terry</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right text-center">
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--================= End Navbar ===============================--> 
+<!--================= Main Content =============================--> 
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="page-header">
+                    <h1>Contact</h1>
+                </div>
+<!--===========================Contact Form ============================-->
+<div class="form-area"> 
+        <div class="form-group">
+            <label for="form-first">First Name *</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="First Name" required>
+        </div> 
+    	<div class="form-group">
+            <label for="form-last">Last Name *</label>
+			<input type="text" class="form-control" id="surname" name="name" placeholder="Last Name" required>
+		</div>
+		<div class="form-group">
+            <label for="form-email">Email *</label>
+			<input type="text" class="form-control" id="email" name="email" placeholder="Email Address" required>
+		</div>
+		<div class="form-group">
+            <label for="form-subject">Subject *</label>
+			<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+		</div>
+            <div class="form-group">
+            <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+            <span class="help-block"><p id="characterLeft" class="help-block ">* Required Fields</p></span>                    
+        </div>   
+            <button type="button" id="submit" name="submit" class="btn">Submit Form</button>
+    </form>
+</div>
+<!--================= End Contact Form ============================-->
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div> 
+
+<!--================= End Main Content ===============================-->
+<!--================= Footer ===============================-->
+<div class="footer">
+    <div class="container-fluid">
+        <p class="footer-block">Jessica Terry Portfolio &copy; 2018</p>
+     </div>
+</div>
+<!--================= End of Footer ===============================-->
+</body>
+</html>
+
+
