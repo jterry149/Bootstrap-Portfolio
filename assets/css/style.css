@@ -117,7 +117,7 @@ body {
 
 /*--============== Column Properties =========================*/
 .col-md-2{
-    background-image: url("/assets/images/dust_scratches.png");
+    background-image: url('../images/dust_scratches.png');
 }
 
 .col-md-8{
@@ -219,7 +219,7 @@ img {
 }
 
 /* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
+@media (min-width: 640px) and (max-width: 767px) {
     .card-columns {
         display: inline-block;
        
@@ -230,7 +230,7 @@ img {
 }
 
 /* Portrait phones and smaller */
-@media (max-width: 480px) {
+@media (max-width: 639px) {
     .card-columns {
         display: block;
         margin:auto;
@@ -238,6 +238,7 @@ img {
     .container-fluid {
         width:100%;
     }
+    
 }
  
 
